@@ -24,7 +24,7 @@
     },
     "MAIN_CHANNEL": {
       "description": "Enter Your main channel Id must add Eg:- -100xxxxxxxxx",
-      "value": "",
+      "value": ""
     },
     "BACKUP_CHANNEL": {
       "description": "Enter Your backup channel Id must add Eg:- -100xxxxxxxxx",
