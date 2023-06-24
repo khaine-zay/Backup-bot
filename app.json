@@ -1,0 +1,40 @@
+{
+  "name": "Auto-Backup-Bot",
+  "description": "Telegram's Best File Backup Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "backup",
+    "bot"
+  ],
+  "repository": "https://github.com/khaine-zay/backup_bot",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": ""
+    },
+    "MAIN_CHANNEL": {
+      "description": "Enter Your main channel Id must add Eg:- -100xxxxxxxxx",
+      "value": "",
+    },
+    "BACKUP_CHANNEL": {
+      "description": "Enter Your backup channel Id must add Eg:- -100xxxxxxxxx",
+      "value": ""
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
