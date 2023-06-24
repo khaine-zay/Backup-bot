@@ -1,0 +1,23 @@
+services:
+  # A Docker web service
+  - type: web
+    name: Backup
+    env: python
+    region: Singapore
+    plan: free
+    envVars:
+      - key: API_ID
+        # value: API_ID
+        sync: false
+      - key: API_HASH
+        # value: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        # value: BOT_TOKEN
+        sync: false
+      - key: MAIN_CHANNEL
+        # value: MAIN_CHANNEL
+        sync: false
+      - key: BACKUP_CHANNEL
+        # value: BACKUP_CHANNEL
+        sync: false
