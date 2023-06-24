@@ -3,6 +3,8 @@ services:
   - type: web
     name: Backup
     env: python
+    buildCommand: "pip install -r -U requirements.txt"
+    startCommand: "python -m http.server && python main.py"
     region: Singapore
     plan: free
     envVars:
