@@ -4,7 +4,7 @@ services:
     name: Backup
     env: python
     buildCommand: "pip install -U -r requirements.txt"
-    startCommand: "python -m http.server && python main.py"
+    startCommand: "python -m http.server & python main.py"
     region: Singapore
     plan: free
     envVars:
